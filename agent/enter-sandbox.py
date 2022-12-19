@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 collector_url = r"https://en2ygewgpwabg.x.pipedream.net"
 # collector_urls = [r"https://en2ygewgpwabg.x.pipedream.net", r"https://httpreq.com/damp-fire-bwgh405c/record", r"https://wubba-dubba.free.beeceptor.com"]
-collector_urls = [r"http://couilledeloup.wol:8888/sandbox-report"]
+collector_urls = [r"http://wololo.wol:8888/sandbox-report"]
 
 parser = argparse.ArgumentParser(description='Enter Sandbox fingerprinter')
 parser.add_argument('-c', '--collector', dest='collector', action='store', default=collector_url, help='collector url')
